@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Ubuntu, sans-serif;
+  line-height: 1.3;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #18294f;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+  padding: .3em .3em .5em;
+  text-align: center;
+}
+
+ul {
+  padding: .5em .75em;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: .3em 0 .5em;
+}
+
+a {
+  display: block;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #6c8fe0;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+li {
+  width: 25%;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    display: inline-block;
+    float: left;
+  }
+
+  nav {
+    float: right;
+    width: 60%;
+    white-space: nowrap;
+  }
+
+  a {
+    padding: 5px;
+  }
+
+}
