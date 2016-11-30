@@ -27,6 +27,10 @@ header {
   color: #fff;
 }
 
+nav {
+  margin: 0 0 .9rem;
+}
+
 header h1 {
   font-size: 2rem;
   margin: 0;
@@ -36,13 +40,13 @@ header h1 {
 
 nav ul {
   font-size: 1.125rem;
-  padding: .5em .75em;
+  padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 li {
   list-style-type: none;
-  padding: .3em 0 .5em;
 }
 
 nav a {
@@ -81,6 +85,10 @@ nav a:hover {
     line-height: 1.4;
   }
 
+  nav {
+    margin: 0;
+  }
+
   li {
     width: 25%;
   }
@@ -101,7 +109,8 @@ nav a:hover {
 
   nav {
     float: right;
-    width: 60%;
+    width: 62%;
+    margin: .9rem 0;
   }
 
   a {
